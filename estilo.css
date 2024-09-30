@@ -1,0 +1,85 @@
+body{
+    top: 0;
+    background-color: #FFC107;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/* Caixa = Formatação para cada section ter seu padding */
+.caixa {
+    padding: 60px 0;
+}
+
+/* Caso específico para cards onde eu só quero uma margin no fundo */
+.caixa2 {
+    margin-bottom: 60px 0;
+}
+
+/* Cor para links da caixa2 */
+.caixa2 a {
+    color: orange;
+}
+
+/* Espaçamento entre links do footer */
+footer p a {
+    margin: 5px 15px;
+}
+
+section {
+    width: 100vw;
+}
+
+
+/* Gradiente de cor para misturar fundos - Index */
+.gradient-top {
+    background: linear-gradient(to bottom, #FFC107, #ffffff 80%), #ffffff;
+}
+
+/* Gradiente - Voluntário */
+.gradient-top-vol {
+    background: linear-gradient(to bottom, #FFC107, #ffffff 35%), #ffffff;
+}
+
+/* Gradiente - FAQ */
+.gradient-top-faq {
+    background: linear-gradient(to bottom, #FFC107, #ffffff 100%), #ffffff;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.negrito-leve{
+    font-weight:600;
+}
+
+.altura-cards{
+    height: 306px;
+}
+
+.btnfaq{
+    color: rgb(43, 39, 39);
+}
+
+.btnfaq:hover{
+    color: #FFC107;
+}
+
+tr td div a{
+    color: #FFC107;
+}
+
+tr td div a:hover,
+tr:hover td button .btnfaq {
+    color: #FFC107;
+}
+
+.rotate {
+    transition: transform 0.5s ease;
+}
+.rotated {
+    transform: rotate(90deg);
+}

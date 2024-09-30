@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- Font Awesome - Ícones -->
+        <script src="https://kit.fontawesome.com/fe535cfee5.js" crossorigin="anonymous"></script>
+        <!-- Estilo customizado -->
+        <link rel="stylesheet" href="estilo.css">
+        <!-- Titulo -->
+        <title>Crazy Cat Gang</title>
+        <!-- Ícone do LINK - Aba do site -->
+        <link rel="icon" href="fotos/logo_redonda.png" type="fotos/png">
+        <style>
+            @media(min-width: 768px){
+                .linha_LP{
+                    border-bottom: 1px solid #343a40;
+                    }
+            }
+        </style>
+    </head>
+<body class="bg-body">
+    <!-- Inicio da Header - Menu superior inicial -->
+    <header class="sticky-top" id="cabecalho">
+        <div class="container-header container-f">
+            <div class=" header sticky-top">
+                <nav class="" id="menu-navegacao">
+                    <div class="container-f">
+                        <a id="header-img" href="index.html">
+                            <img class="d-none d-lg-flex align-items-center" src="./fotos/logo_sf.png" alt="">
+                        </a>
+                        <ul class="container-f nav d-block d-md-flex">
+                            <li class=" fw-bold" >
+                                <a class="nav-link " href="index.html">
+                                    Quem Somos
+                                </a>
+                                <span id="span1"></span>
+                            </li>
+                            <li class=" fw-bold" >
+                                <a class="nav-link " href="index.html">
+                                    Como ajudar
+                                </a>
+                                <span id="span2"></span>
+                            </li>
+                            <li class="nav-item fw-bold">
+                                <a class="nav-link " href="voluntario.html">
+                                    Lar Temporário
+                                </a>
+                                <span></span>
+                            </li>
+                            <li class="nav-item fw-bold">
+                                <a class="nav-link dropdown-toggle" href="#" id="categoriasDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Categorias
+                                </a>
+                                <span></span>
+                                <div class="dropdown-menu" aria-labelledby="categoriasDropdown">
+                                    <a class="dropdown-item" href="#">Adoção</a>
+                                    <a class="dropdown-item" href="#">Comportamento</a>
+                                    <a class="dropdown-item" href="#">Food</a>
+                                    <a class="dropdown-item" href="#">Indicação</a>
+                                    <a class="dropdown-item" href="#">Parceria</a>
+                                    <a class="dropdown-item" href="#">Resgate</a>
+                                    <a class="dropdown-item" href="#">Trabalho</a>
+                                </div>
+                            </li>
+                            <li class="nav-item fw-bold">
+                                <a class="nav-link " href="#">
+                                    Blog
+                                </a>
+                                <span></span>
+                            </li>
+                            <li class="nav-item fw-bold">
+                                <a class="nav-link " href="faq.html">
+                                    Perguntas Frequêntes
+                                </a>
+                                <span></span>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div>
+                <a href="form.html">
+                    <button class="fw-bold botao" id="voluntario">
+                        Seja Voluntário <i class="fa-solid fa-cat"></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Texto pré Formulário -->
+    <section id="home" class="gradient-top-faq">
+        <div class="container">
+            <div class="row">
+                <!-- Foto -->
+                <div class="col-md-6 d-none d-md-block">
+                    <img class="puxa_foto img-fluid" src="fotos/casinha.png" alt="Gatos abraçados">
+                </div>
+                <!-- Texto -->
+                <div class="col-md-6 d-flex">
+                    <div class="align-self-center text-dark">
+                        <h1 class="display-3">Formulário <i class="fa-solid fa-cat"></i></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário -->
+    <section class="bg-white">
+        <div class="container">
+            <div class="row">
+                
+                <!-- Primeira coluna do forms -->
+                <div class="col-md-6 mt-3">
+                    <form action="">
+                        <div class="form-group">
+                            <label>Nome</label>
+                            <input class="form-control" placeholder=" - Seu primeiro nome - ">
+                        </div>
+                        <div class="form-group">
+                            <label>Sobrenome</label>
+                            <input class="form-control" placeholder=" - Seu sobrenome - ">
+                        </div>
+                        <div class="form-group">
+                            <label>Celular</label>
+                            <input class="form-control" placeholder=" - Seu número de celular - ">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input class="form-control" placeholder=" - Seu e-mail - ">
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Segunda coluna do forms -->
+                <div class="col-md-6 mt-3 mb-4">
+                    <form action="">
+                        <div class="form-group">
+                            <label>CPF</label>
+                            <input class="form-control" placeholder=" - Seu CPF - ">
+                        </div>
+                        <div class="form-group">
+                            <label for="moradia">Você mora em</label>
+                            <select class="form-control" id="moradia">
+                                <option value="">Casa</option>
+                                <option value="">Apartamento</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="moradia">Tem tela de proteção</label>
+                            <select class="form-control" id="moradia">
+                                <option value="">Sim</option>
+                                <option value="">Não</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="moradia">Tem outros gatos/pets?</label>
+                            <select class="form-control" id="moradia">
+                                <option value="">Sim</option>
+                                <option value="">Não</option>
+                            </select>
+                        </div> 
+                        <div class="d-flex justify-content-end mt-4">
+                            <button class="btn btn-warning">Enviar respostas</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Inicio do Footer - Rodapé -->
+    <footer class="pt-4 mb-4  bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 d-flex align-items-center">
+                    <p>
+                        <a class="text-dark" href="index.html">Quem somos</a>
+                        <a class="text-dark ml-3" href="index.html">Como ajudar</a>
+                        <a class="text-dark ml-3" href="voluntario.html">Lar temporário</a>
+                        <a class="text-dark ml-3" href="#">Blog</a>
+                        <a class="text-dark ml-3" href="#">Perguntas Frequentes</a>
+                    </p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <a href="https://www.instagram.com/crazycatgang?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn btn-outline-dark ml-1">
+                        <i class="fa-brands fa-instagram fa-md"></i>
+                    </a>
+                    <a href="https://www.facebook.com/crazycatgang" class="btn btn-outline-dark ml-1">
+                        <i class="fa-brands fa-facebook fa-md"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-dark ml-1">
+                        <i class="fa-brands fa-whatsapp fa-md"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>    
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>

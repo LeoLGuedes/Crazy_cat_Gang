@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header-cell {
+    display: none;
+}
+
+.header {
+    padding: 0px 16px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 16px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.13);
+}
+
+.navbar {
+    align-items: center;
+    justify-content: center;
+}
+
+.container-f{
+    display: flex;
+}
+
+.container-header {
+    align-items: center;
+    justify-content: center;
+}
+
+nav div ul li {
+    padding: 6px 8px;
+    list-style: none;
+    
+}
+
+#cabecalho .nav .nav-link {
+    color: black;
+}
+
+.header img, 
+#header-img {
+    width: 100%;
+    max-width: 50px;
+}
+
+.header button {
+    border-radius: 8px;
+    transition: 0.3s;
+    padding: 0 8px;
+}
+
+.header button img {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header button:hover {
+    border-radius: 8px;
+    background-color: rgb(253, 208, 84);
+}
+
+nav div ul li:hover {
+    cursor: pointer;
+}
+
+nav div ul li span, nav div button span {
+    cursor: pointer;
+    border-radius: 3px;
+    display: block;
+    height: 2px;
+    width: 100%;
+    padding: 2px;
+    background-color: transparent;
+}
+
+nav div ul li:hover span{
+    cursor: pointer;
+    background-color: #f6b323;
+}
+
+.botao {
+    position: sticky;
+    top: 3%;
+    padding: 18px;
+    background: linear-gradient( 300deg,#f09819,
+    #ff512f);
+    color: antiquewhite;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.13);
+    border: 0 solid rgba(255, 255, 255, 0.1);
+}
+
+form .input-group-lg button a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    max-width: 80px;
+    width: 100%;
+}
+
+
+.botao:hover {
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.233);
+    background: linear-gradient( 150deg,#f6b323,
+    rgb(250, 99, 53));
+    cursor: pointer;
+}
+
+section {
+    width: 100vh;
+}
+
+.radius {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: rgba(24, 22, 22, 0.6);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 8%;
+    right: 2%;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.178);
+    display:none ;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    border: 2px solid rgba(243, 238, 238, 0.603);
+}
+
+.radius:hover {
+    cursor: pointer;
+    background-color:rgba(255, 255, 255, 0.973);
+}
+
+.bg-body{
+    background: linear-gradient(to bottom, #FFC107, #ffffff 100%), #ffffff;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.menu-hamburguer {
+    width: 40px;
+    margin: 8px auto;
+    background-color: rgb(44, 42, 42);
+    border-radius: 5px;
+    border: solid 2px black;
+    padding: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-hamburguer:hover {
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span {
+    border-radius: 50%;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
